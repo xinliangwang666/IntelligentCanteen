@@ -1,0 +1,2 @@
+# IntelligentCanteen
+第一次尝试学习使用git做开发版本控制
