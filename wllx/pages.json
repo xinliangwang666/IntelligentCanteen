@@ -1,0 +1,141 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "商家列表"
+      }
+    },
+    {
+      "path": "pages/shop/shop",
+      "style": {
+        "navigationBarTitleText": "菜品列表"
+      }
+    },
+    {
+      "path": "pages/cart/cart",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+    	"path" : "pages/pay/pay",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/merchant/index",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+	{
+		"path" : "pages/merchant/editDish",
+		"style" : 
+		{
+			"navigationBarTitleText" : ""
+		}
+	},
+	{
+		"path" : "pages/merchant/editStore",
+		"style" : 
+		{
+			"navigationBarTitleText" : ""
+		}
+	},
+	{
+		"path" : "pages/merchant/manageDishes",
+		"style" : 
+		{
+			"navigationBarTitleText" : ""
+		}
+	},
+	{
+		"path" : "pages/merchant/orderList",
+		"style" : 
+		{
+			"navigationBarTitleText" : ""
+		}
+	},
+	{
+		"path" : "pages/admin/index",
+		"style" : 
+		{
+			"navigationBarTitleText" : "admin"
+		}
+	},
+	{
+		"path" : "pages/user/index",
+		"style" : 
+		{
+			"navigationBarTitleText" : "user"
+		}
+	},
+	{
+		"path" : "pages/favorites/list",
+		"style" : 
+		{
+			"navigationBarTitleText" : ""
+		}
+	},
+	{
+		"path" : "pages/orders/history",
+		"style" : 
+		{
+			"navigationBarTitleText" : ""
+		}
+	},
+	{
+		"path" : "pages/records/list",
+		"style" : 
+		{
+			"navigationBarTitleText" : "历史订单"
+		}
+	}
+  ],
+ "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+	  
+    ]
+  }
+}
+
+// 	"globalStyle": {
+// 		"navigationBarTextStyle": "black",
+// 		"navigationBarTitleText": "uni-app",
+// 		"navigationBarBackgroundColor": "#F8F8F8",
+// 		"backgroundColor": "#F8F8F8"
+// 	},
+// 	"uniIdRouter": {}
+// }

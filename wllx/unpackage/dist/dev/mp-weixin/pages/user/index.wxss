@@ -1,0 +1,32 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.content {
+  flex: 1;
+  padding-bottom: 100rpx; /* 避免内容被tabbar遮挡 */
+  overflow-y: auto;
+}
+.tabbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  padding: 10rpx 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+.tab-item {
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+  color: #999;
+}
+.tab-item.active {
+  color: #ff0000;
+  font-weight: bold;
+}

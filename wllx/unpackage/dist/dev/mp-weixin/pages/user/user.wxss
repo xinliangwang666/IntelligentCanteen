@@ -1,0 +1,140 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.logo {
+  width: 600rpx;
+  height: 300rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 80rpx;
+}
+.profile-container {
+  padding: 30rpx;
+  background: #f5f5f5;
+  min-height: 100vh;
+  position: relative;
+}
+.user-info-card {
+  margin-top: 40rpx;
+  background: white;
+  border-radius: 20rpx;
+  padding: 40rpx 20rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+}
+.user-info-card .avatar-section {
+  position: relative;
+  margin-right: 40rpx;
+}
+.user-info-card .avatar-section .avatar {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  border: 4rpx solid #f0f0f0;
+  margin-top: -20rpx;
+}
+.user-info-card .avatar-section .edit-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #007aff;
+  color: white;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 28rpx;
+}
+.user-info-card .info-item {
+  margin-bottom: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.user-info-card .info-item .label {
+  color: #666;
+  width: 140rpx;
+}
+.user-info-card .info-item .value {
+  flex: 1;
+  color: #333;
+  font-weight: 500;
+}
+.user-info-card .info-item .value[disabled] {
+  opacity: 0.8;
+}
+.user-info-card .info-item .edit-btn {
+  color: #007aff;
+  margin-left: 20rpx;
+  padding: 8rpx 20rpx;
+  border-radius: 30rpx;
+  background: #f0f6ff;
+}
+.menu-card {
+  margin-top: 40rpx;
+  background: white;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.06);
+}
+.menu-card .menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.menu-card .menu-item:last-child {
+  border-bottom: none;
+}
+.menu-card .menu-item .menu-left {
+  display: flex;
+  align-items: center;
+}
+.menu-card .menu-item .menu-left .menu-icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+.menu-card .menu-item .arrow {
+  font-size: 50rpx;
+  color: #999;
+}
+.logout-btn {
+  margin-top: 60rpx;
+  background: #ff4d4f;
+  color: white;
+  border-radius: 50rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
+}
+.logout-btn::after {
+  border: none;
+}
+.logout-btn:active {
+  opacity: 0.8;
+}

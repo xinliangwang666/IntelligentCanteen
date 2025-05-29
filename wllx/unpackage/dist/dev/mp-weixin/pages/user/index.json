@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "user",
+  "usingComponents": {
+    "home": "../home/home",
+    "cart": "../cart/cart",
+    "user": "./user"
+  }
+}

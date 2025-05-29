@@ -1,0 +1,1 @@
+{"version":3,"file":"user2.js","sources":["../../../HBuilder X/HBuilderX/plugins/uniapp-cli-vite/uniPage:/RDov6L2v5Lu25bel56iLL3dsbHgyL3dsbHgvcGFnZXMvdXNlci91c2VyLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'D:/软件工程/wllx2/wllx/pages/user/user.vue'\nwx.createPage(MiniProgramPage)"],"names":["MiniProgramPage"],"mappings":";;AACA,GAAG,WAAWA,KAAe,eAAA;"}

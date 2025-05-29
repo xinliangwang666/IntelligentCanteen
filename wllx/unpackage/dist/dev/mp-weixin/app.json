@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/shop/shop",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/pay/pay",
+    "pages/merchant/index",
+    "pages/merchant/editDish",
+    "pages/merchant/editStore",
+    "pages/merchant/manageDishes",
+    "pages/merchant/orderList",
+    "pages/admin/index",
+    "pages/user/index",
+    "pages/favorites/list",
+    "pages/orders/history",
+    "pages/records/list"
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

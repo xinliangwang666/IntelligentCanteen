@@ -1,0 +1,59 @@
+
+.merchant-dashboard.data-v-46294a64 {
+  min-height: 100vh;
+  background-color: #f2f3f7;
+  padding: 0 30rpx 60rpx;
+}
+
+/* 欢迎区域 */
+.header.data-v-46294a64 {
+  background-color: #7b68ee;
+  border-radius: 20rpx;
+  padding: 50rpx 30rpx;
+  color: #fff;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  box-shadow: 0 8rpx 16rpx rgba(0, 0, 0, 0.1);
+}
+.welcome.data-v-46294a64 {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.sub.data-v-46294a64 {
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  opacity: 0.9;
+}
+
+/* 操作卡片区域 */
+.quick-actions.data-v-46294a64 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30rpx;
+}
+.action-card.data-v-46294a64 {
+  width: 90%;
+  height: 180rpx;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 6rpx 12rpx rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+.action-card.data-v-46294a64:active {
+  transform: scale(0.97);
+}
+.icon.data-v-46294a64 {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 16rpx;
+}
+.label.data-v-46294a64 {
+  font-size: 28rpx;
+  font-weight: bold;
+}

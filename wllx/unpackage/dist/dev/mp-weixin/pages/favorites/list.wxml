@@ -1,0 +1,1 @@
+<view class="page-container"><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="card"><image class="store-img" src="{{item.a}}" mode="aspectFill"/><view class="store-info"><text class="store-name">{{item.b}}</text><text class="store-desc">{{item.c}}</text></view></view></view>

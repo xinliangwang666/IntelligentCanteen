@@ -1,0 +1,1 @@
+<view class="page-container"><view wx:for="{{a}}" wx:for-item="record" wx:key="d" class="record-item"><view class="record-left"><text class="store">{{record.a}}</text><text class="date">{{record.b}}</text></view><view class="record-right"><text class="amount">-￥{{record.c}}</text></view></view></view>
